@@ -18,6 +18,10 @@ URL:		https://aspell.sourceforge.net/
 License:	GPLv2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires:	aspell >= %{aspell_ver}
 BuildRequires:	make
 Requires:	aspell >= %{aspell_ver}
