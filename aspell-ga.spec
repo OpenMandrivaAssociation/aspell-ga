@@ -12,9 +12,10 @@ Summary:	%{languageenglazy} files for aspell
 Name:		aspell-%{languagecode}
 Epoch:		1
 Version:	4.5.0
-Release:	1
+Release:	2
 Group:		System/Internationalization
 Source:		http://ftp.gnu.org/gnu/aspell/dict/%{languagecode}/%{fname}-%{src_ver}.tar.bz2
+Source1000:	aspell-ga.rpmlintrc
 URL:		https://aspell.sourceforge.net/
 License:	GPLv2
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root

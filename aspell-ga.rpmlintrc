@@ -1,0 +1,2 @@
+# Upstream copyright still has the old FSF street address
+addFilter("incorrect-fsf-address")
